@@ -8,8 +8,6 @@ export default defineUserConfig({
   title: 'VuePress',
   description: 'My first VuePress Site',
 
-  base: '/CRSim-doc/', // Set your base path here
-
   theme: defaultTheme({
     logo: 'https://vuejs.press/images/hero.png',
 
