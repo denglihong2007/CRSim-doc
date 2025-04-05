@@ -1,4 +1,5 @@
 User-agent: *
 
 Allow: /
-Sitemap: https://docs.crsim.tech/sitemap.xml
+User-agent:*
+Disallow:
