@@ -25,11 +25,14 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 22
-          cache: yarn
 
+      - name: 安装最新版本的 Yarn
+        run: |
+          corepack enable
+          corepack prepare yarn@stable --activate
+          
       - name: 安装依赖
         run: |
-          yarn set version stable
           yarn install --frozen-lockfile
 
       - name: 构建文档
