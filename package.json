@@ -2,7 +2,7 @@
   "name": "crsim-doc",
   "description": "CRSim国铁信息模拟软件的官方文档。",
   "version": "0.0.1",
-  "license": "GPL-3.0-only",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "docs:build": "vuepress build docs",
@@ -16,5 +16,10 @@
     "sass-embedded": "^1.86.0",
     "vue": "^3.5.13",
     "vuepress": "2.0.0-rc.20"
+  },
+  "packageManager": "yarn@4.8.1",
+  "dependencies": {
+    "docs": "^0.3.2-canary.0",
+    "vuepress-theme-hope": "^2.0.0-rc.78"
   }
 }

@@ -1,33 +1,33 @@
 ---
 home: true
-title: Home
-heroImage: https://vuejs.press/images/hero.png
+title: 首页
+heroImage: .\images\CRSimIcon.png
 actions:
-  - text: Get Started
-    link: /get-started.html
+  - text: 开始使用
+    link: /app/
     type: primary
 
-  - text: Introduction
-    link: https://vuejs.press/guide/introduction.html
+  - text: 开始开发
+    link: /dev/
+    type: secondary
+
+  - text: 官方网站
+    link: https://crsim.tech/
+    type: secondary
+
+  - text: Github 仓库
+    link: https://github.com/denglihong2007/CRSim
     type: secondary
 
 features:
-  - title: Simplicity First
-    details: Minimal setup with markdown-centered project structure helps you focus on writing.
-  - title: Vue-Powered
-    details: Enjoy the dev experience of Vue, use Vue components in markdown, and develop custom themes with Vue.
-  - title: Performant
-    details: VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-  - title: Themes
-    details: Providing a default theme out of the box. You can also choose a community theme or create your own one.
-  - title: Plugins
-    details: Flexible plugin API, allowing plugins to provide lots of plug-and-play features for your site.
-  - title: Bundlers
-    details: Default bundler is Vite, while Webpack is also supported. Choose the one you like!
+  - title: 引导屏模拟
+    details: 支持模拟铁路车站内的引导屏显示，显示内容高度仿真。
+  - title: 售票网站模拟
+    details: 支持本地模拟铁路售票网站（需要用户密钥）。
+  - title: 灵活的数据支持
+    details: 支持从网络、Excel、路路通、模拟广播系统、pyETRC/qETRC等来源导入数据。
+  - title: 优雅的用户界面
+    details: 采用Fluent Design进行开发，契合Windows 11整体风格，美观优雅。
 
-footer: MIT Licensed | Copyright © 2018-present VuePress Community
+footer: 文档以 CC BY-NC-SA 4.0 许可协议授权 | Copyright © 2025 CRSim 社区
 ---
-
-This is the content of home page. Check [Home Page Docs][default-theme-home] for more details.
-
-[default-theme-home]: https://vuejs.press/reference/default-theme/frontmatter.html#home-page
