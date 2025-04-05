@@ -44,6 +44,7 @@ export default defineUserConfig({
       devServer: true,
     }),
     seoPlugin({
+      hostname: 'docs.crsim.tech',
     }),
   ],
 })
