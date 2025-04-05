@@ -2,6 +2,7 @@
 import { hopeTheme } from "vuepress-theme-hope";
 import { defineUserConfig } from 'vuepress'
 import { sitemapPlugin } from '@vuepress/plugin-sitemap'
+import { seoPlugin } from '@vuepress/plugin-seo'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
@@ -41,6 +42,8 @@ export default defineUserConfig({
     sitemapPlugin({
       hostname: 'docs.crsim.tech',
       devServer: true,
+    }),
+    seoPlugin({
     }),
   ],
 })
