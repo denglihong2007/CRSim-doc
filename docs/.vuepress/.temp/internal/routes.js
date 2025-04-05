@@ -7,20 +7,3 @@ export const routes = Object.fromEntries([
   ["/dev/", { loader: () => import(/* webpackChunkName: "dev_index.html" */"C:/Users/jjxjj/Desktop/repos/CRSim-doc/docs/.vuepress/.temp/pages/dev/index.html.js"), meta: {"title":"开发文档"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"C:/Users/jjxjj/Desktop/repos/CRSim-doc/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateRoutes) {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-  }
-  if (__VUE_HMR_RUNTIME__.updateRedirects) {
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ routes, redirects }) => {
-    __VUE_HMR_RUNTIME__.updateRoutes(routes)
-    __VUE_HMR_RUNTIME__.updateRedirects(redirects)
-  })
-}
