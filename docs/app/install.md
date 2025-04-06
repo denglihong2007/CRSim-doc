@@ -26,7 +26,7 @@ index: false
 
 ![方法2](img\install\2.png)
 
-点击你所需要版本的 CRSim 进行下载（带 CRSim 字样的zip文件），随后解压到你想要的目录，直接点击 CRSim.exe 开始运行。
+点击你所需要版本的 CRSim 进行下载（带 CRSim 字样的 zip 文件），随后解压到你想要的目录，直接点击 CRSim.exe 开始运行。
 
 #### 优缺点比较
 
@@ -53,7 +53,7 @@ index: false
 
 ![](img\install\5.png)
 
-4. 在弹出的窗口中点击显示详细信息，点击仍然保留，即可正常下载
+4. 在弹出的窗口中点击显示详细信息，点击仍然保留，即可正常下载。
 
 ![](img\install\7.png)
 
@@ -75,15 +75,15 @@ index: false
 
 :::
 
-1. 若弹出如下窗口，点击安装
+1. 若弹出如下窗口，点击安装。
 
 ![](img\install\11.png)
 
-2. 等待安装完成
+2. 等待安装完成。
 
 ![](img\install\12.png)
 
-3. 安装完成后，自动弹出软件主界面
+3. 安装完成后，自动弹出软件主界面。
 
 ![](img\install\13.png)
 
@@ -94,6 +94,6 @@ index: false
 - 本软件的**最低系统要求**为 Windows 10
 - 必须安装 .Net 9.0 或以上版本
 - 有问题请加 QQ 群：972024237 (暗号`114514`)
-- 有其他建议或者 Bug 报告请 ![提交 Issue](https://github.com/denglihong2007/CRSim/issues)
+- 有其他建议或者 Bug 报告请 [提交 Issue](https://github.com/denglihong2007/CRSim/issues)
 
 :::
