@@ -30,9 +30,9 @@ export default defineUserConfig({
           collapsable: false,
           icon: 'lightbulb',
           children: [
-            '/app/key',
             '/app/install',
             '/app/station',
+            '/app/key',
           ],
         },
       ],
