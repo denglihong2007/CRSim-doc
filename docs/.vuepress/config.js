@@ -32,6 +32,7 @@ export default defineUserConfig({
           children: [
             '/app/key',
             '/app/install',
+            '/app/station',
           ],
         },
       ],
