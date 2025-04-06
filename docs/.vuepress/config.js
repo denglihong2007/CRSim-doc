@@ -17,6 +17,7 @@ export default defineUserConfig({
     docsDir: 'docs',
     docsBranch: 'master',
     changelog: false,
+    favicon: './favicon.ico',
     navbar: [
       { text: '首页', icon: 'home', link: '/' },
       { text: '开始使用',icon: 'lightbulb', link: '/app/' },
@@ -26,12 +27,18 @@ export default defineUserConfig({
     sidebar: {
       '/app/': [
         {
-          title: '使用教程',
-          collapsable: false,
+          text: '使用教程',
           icon: 'lightbulb',
           children: [
             '/app/install',
-            '/app/station',
+            {
+              text: '数据管理',
+              collapsible: true,
+              icon: 'database',
+              children: [
+                '/app/station',
+              ],
+            },
             '/app/key',
           ],
         },
@@ -50,7 +57,11 @@ export default defineUserConfig({
       {
         assets: "fontawesome-with-brands"
       }
-    }
+    },
+    markdown: {
+      figure: true,
+      imgLazyload: true,
+    },
   }),
   head: [
     ['link', { rel: 'stylesheet', href: '/fontawesome/css/all.css' }],
