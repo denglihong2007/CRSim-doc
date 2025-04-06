@@ -1,5 +1,6 @@
 ---
 title: 用户密钥申请
+icon: key
 index: false
 ---
 

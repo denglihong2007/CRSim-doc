@@ -222,6 +222,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fortawesome/fontawesome-free@npm:^6.7.2":
+  version: 6.7.2
+  resolution: "@fortawesome/fontawesome-free@npm:6.7.2"
+  checksum: 10c0/e27fb8b846f0bcf40c904acc210829a640329fc7b7ec4e42a7c43cb53739ed6052d78df90810f555a5c80bc608fee5a5174db3fa6da617f582d6210009a19278
+  languageName: node
+  linkType: hard
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -2571,6 +2578,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "crsim-doc@workspace:."
   dependencies:
+    "@fortawesome/fontawesome-free": "npm:^6.7.2"
     "@vuepress/bundler-vite": "npm:2.0.0-rc.20"
     "@vuepress/theme-default": "npm:2.0.0-rc.88"
     docs: "npm:^0.3.2-canary.0"

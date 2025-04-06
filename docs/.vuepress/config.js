@@ -1,8 +1,6 @@
 
 import { hopeTheme } from "vuepress-theme-hope";
 import { defineUserConfig } from 'vuepress'
-import { sitemapPlugin } from '@vuepress/plugin-sitemap'
-import { seoPlugin } from '@vuepress/plugin-seo'
 import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
@@ -20,31 +18,39 @@ export default defineUserConfig({
     docsBranch: 'master',
     changelog: false,
     navbar: [
-      { text: '首页', link: '/' },
-      { text: '开始使用', link: '/app/' },
-      { text: '开发文档', link: '/dev/' },
-      { text: '社区群组', link: '/community.html' },
+      { text: '首页', icon: 'home', link: '/' },
+      { text: '开始使用',icon: 'lightbulb', link: '/app/' },
+      { text: '开发文档',icon: 'code', link: '/dev/' },
+      { text: '社区群组',icon: 'fa-user-group', link: '/community.html' },
     ],
     sidebar: {
       '/app/': [
         {
           title: '使用教程',
           collapsable: false,
+          icon: 'lightbulb',
           children: [
             '/app/key',
           ],
         },
       ],
     },
+    plugins:
+    {
+      seo: {
+        hostname: 'docs.crsim.tech',
+      },
+      sitemap: {
+        hostname: 'docs.crsim.tech',
+        devServer: true,
+      },
+      icon:
+      {
+        assets: "fontawesome-with-brands"
+      }
+    }
   }),
-
-  plugins: [
-    sitemapPlugin({
-      hostname: 'docs.crsim.tech',
-      devServer: true,
-    }),
-    seoPlugin({
-      hostname: 'docs.crsim.tech',
-    }),
+  head: [
+    ['link', { rel: 'stylesheet', href: '/fontawesome/css/all.css' }],
   ],
 })
