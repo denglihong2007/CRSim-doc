@@ -31,6 +31,7 @@ export default defineUserConfig({
           icon: 'lightbulb',
           children: [
             '/app/key',
+            '/app/install',
           ],
         },
       ],
