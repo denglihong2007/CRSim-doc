@@ -6,7 +6,7 @@ index: false
 
 ## 安装运行库
 
-1. 前往 [dotnet官网](https://dotnet.microsoft.com/zh-cn/download/dotnet/9.0) 选择下载对应系统版本的安装包。
+1. 前往 [dotnet官网](https://dotnet.microsoft.com/zh-cn/download/dotnet/9.0) 选择并下载对应系统版本的安装包。
 
 ![](img\install\15.png)
 
@@ -18,11 +18,11 @@ index: false
 
 ### 下载安装程序
 
-#### 方法1 打开 [官网](https://crsim.tech/) 下载最新版 CRSim。
+#### 方法1 打开 [官网](https://crsim.tech/) 下载最新版 CRSim
 ![方法1](img\install\1.png)
 点击立即下载按钮，下载最新版 CRSim 安装程序。
 
-#### 方法2 从 [Github](https://github.com/denglihong2007/CRSim/releases/) 下载免安装版本CRSim。
+#### 方法2 从 [Github](https://github.com/denglihong2007/CRSim/releases/) 下载免安装版本 CRSim
 
 ![方法2](img\install\2.png)
 
@@ -41,19 +41,19 @@ index: false
 
 以下是对于误报的解决办法：
 
-1. 点击文件右上角三个点，点击保留。
+1. 点击文件右上角三个点，点击【保留】。
 
 ![](img\install\3.png)
 
-2. 在弹出的窗口中点击仍然保留。
+2. 在弹出的窗口中点击【仍然保留】。
 
 ![](img\install\4.png)
 
-3. 如果显示通常不会下载 xxx ，再次操作右上角三个点，点击保留。
+3. 如果显示通常不会下载 xxx ，再次操作右上角三个点，点击【保留】。
 
 ![](img\install\5.png)
 
-4. 在弹出的窗口中点击显示详细信息，点击仍然保留，即可正常下载。
+4. 在弹出的窗口中点击【显示详细信息】，点击【仍然保留】，即可正常下载。
 
 ![](img\install\7.png)
 
@@ -69,13 +69,13 @@ index: false
 
 ::: warning 安装提示
 
-如果弹出如下弹窗，点击更多信息，点击仍要运行。
+如果弹出如下弹窗，点击【更多信息】，点击【仍要运行】。
 
 ![](img\install\10.png)
 
 :::
 
-1. 若弹出如下窗口，点击安装。
+1. 若弹出如下窗口，点击【安装】。
 
 ![](img\install\11.png)
 
