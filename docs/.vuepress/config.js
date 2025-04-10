@@ -39,6 +39,7 @@ export default defineUserConfig({
                 '/app/station',
               ],
             },
+            '/app/simulation',
             '/app/key',
           ],
         },

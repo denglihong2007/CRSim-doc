@@ -11,3 +11,5 @@ index: false
 2. [车站管理](station.html)
 
 3. [用户密钥申请](key.html)
+
+4. [开始模拟](simulation.html)
