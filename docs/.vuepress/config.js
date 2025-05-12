@@ -44,6 +44,15 @@ export default defineUserConfig({
           ],
         },
       ],
+      '/dev/': [
+        {
+          text: '开发文档',
+          icon: 'code',
+          children: [
+            '/dev/api'
+          ]
+        }
+      ]
     },
     plugins:
     {
