@@ -4,9 +4,9 @@ icon: toolbox
 index: false
 ---
 
-[CRSim下载镜像站](http://47.117.190.206) 提供了一些API接口，方便用户查询镜像站的资源信息。
+[CRSim下载镜像站](http://crsim.com.cn) 提供了一些API接口，方便用户查询镜像站的资源信息。
 
-API接口地址：`http://47.117.190.206/api/[ 接口名称 ].php`
+API接口地址：`http://crsim.com.cn/api/[ 接口名称 ].php`
 
 # 接口列表及格式
 
@@ -41,27 +41,27 @@ API接口地址：`http://47.117.190.206/api/[ 接口名称 ].php`
 |`404`| `"ver" not found` | 请求的版本不存在 |
 |`500`| `JSON file format error, please contact website administrator` | 服务器JSON解析失败，请联系网站管理人员。 |
 
-- 示例请求1: `http://47.117.190.206/api/version.php`
+- 示例请求1: `http://crsim.com.cn/api/version.php`
 - 示例响应1:
 ```json
 {
   "status_code": "200",
   "message": "OK",
   "ver": "2.2.0.0",
-  "download_file": "47.117.190.206/file/CRSim-release-2.2.0.0.zip",
+  "download_file": "crsim.com.cn/file/CRSim-release-2.2.0.0.zip",
   "file_md5": "db6d8153f22bb18c68d54f7ede2cde70",
   "file_sha256": "9d9da3e6a8caf2c18ca256e8e10ba1e2257b707460d00d2d70153c844cd339e6",
   "log": "## What's Changed\r\n* feat: 样式搜索 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/98\r\n* fix: 筛选后无法复原 by @wxl0430 in https://github.com/denglihong2007/CRSim/pull/99\r\n* chore: 优化项目文件结构 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/100\r\n* feat: 添加12306模拟认证失败提示 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/101\r\n* feat: 添加列车已到达状态 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/102\r\n* feat: 添加淄博站廊桥看板 by @wxl0430 in https://github.com/denglihong2007/CRSim/pull/105\r\n* feat: 添加大庆东站廊桥屏和北京站地道屏 by @wxl0430 in https://github.com/denglihong2007/CRSim/pull/107\r\n* chore: 优化项目结构 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/109\r\n* chore: 更正淄博廊桥样式错别字 by @wxl0430 in https://github.com/denglihong2007/CRSim/pull/110\r\n* feat: 添加作者搜索功能 by @wxl0430 in https://github.com/denglihong2007/CRSim/pull/112\r\n* chore: 更正淄博检票口状态栏文字 by @wxl0430 in https://github.com/denglihong2007/CRSim/pull/114\r\n* feat: 添加大庆东站站台屏和哈尔滨西站站台屏 by @wxl0430 in https://github.com/denglihong2007/CRSim/pull/117\r\n* fix: 统一预览图片为4:3 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/118\r\n* fix: 广元站主要看板无法启动 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/120\r\n* 2.2.0 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/129\r\n\r\n\r\n**Full Changelog**: https://github.com/denglihong2007/CRSim/compare/v2.1.4.0...v2.2.0.0"
 }
 ```
-- 示例请求2: `http://47.117.190.206/api/version.php?ver=2.1.4.0`
+- 示例请求2: `http://crsim.com.cn/api/version.php?ver=2.1.4.0`
 - 示例响应2:
 ```json
 {
   "status_code": "200",
   "message": "OK",
   "ver": "2.1.4.0",
-  "download_file": "47.117.190.206/file/CRSim-release-2.1.4.0.zip",
+  "download_file": "crsim.com.cn/file/CRSim-release-2.1.4.0.zip",
   "file_md5": "f9915b92d73c7bf0de14e34e85cddfaf",
   "file_sha256": "783b6f691e0dcb3d059c59800065c12f9e6cc5efced8fc7897d5c5a0530ee133",
   "log": "## What's Changed\r\n* chore: 更新用户密钥文档地址 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/79\r\n* chore: 更正哈尔滨样式错别字 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/84\r\n* feat: 更加详细的错误提示 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/85\r\n* feat: 新增绵阳站站台看板 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/87\r\n* fix: 绵阳站站台看板宽度问题 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/91\r\n* feat: 添加淄博站站台看板 by @wxl0430 in https://github.com/denglihong2007/CRSim/pull/92\r\n* fix: 站台车厢位置提示文本错误 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/94\r\n* feat: 添加福州南站检票口看板 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/95\r\n* feat: 添加徐州地铁站台看板 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/96\r\n* chore: 修正版本号 by @denglihong2007 in https://github.com/denglihong2007/CRSim/pull/97\r\n\r\n\r\n**Full Changelog**: https://github.com/denglihong2007/CRSim/compare/v2.1.3.0...v2.1.4.0"
@@ -90,7 +90,7 @@ API接口地址：`http://47.117.190.206/api/[ 接口名称 ].php`
 |`200`| `OK` | 请求成功 |
 |`500`| `JSON file format error, please contact website administrator` | 服务器JSON解析失败，请联系网站管理人员。 |
 
-- 示例请求1: `http://47.117.190.206/api/versionlist.php`
+- 示例请求1: `http://crsim.com.cn/api/versionlist.php`
 - 示例响应1:
 ```json
 {
