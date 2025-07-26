@@ -49,7 +49,8 @@ export default defineUserConfig({
           text: '开发文档',
           icon: 'code',
           children: [
-            '/dev/api'
+            '/dev/api',
+            '/dev/devlopment-plugins'
           ]
         }
       ]
@@ -66,6 +67,9 @@ export default defineUserConfig({
       icon:
       {
         assets: "fontawesome-with-brands"
+      },
+      mdEnhance: {
+         tabs: true
       }
     },
     markdown: {
