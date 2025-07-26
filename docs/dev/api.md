@@ -1,16 +1,16 @@
 ---
-title: 镜像站API使用说明
+title: 镜像站 API 使用说明
 icon: toolbox
 index: false
 ---
 
 [CRSim下载镜像站](http://crsim.com.cn) 提供了一些API接口，方便用户查询镜像站的资源信息。
 
-API接口地址：`http://crsim.com.cn/api/[ 接口名称 ].php`
+API 接口地址：`http://crsim.com.cn/api/[ 接口名称 ].php`
 
-# 接口列表及格式
+## 接口列表及格式
 
-## 1. version
+### 1. version
 
 - 功能简介 ：查询版本对应的详细信息。
 - 请求方式 ：`GET`
@@ -68,7 +68,7 @@ API接口地址：`http://crsim.com.cn/api/[ 接口名称 ].php`
 }
 ```
 
-## 2. versionlist
+### 2. versionlist
 
 - 功能简介 ：查询版本列表。
 - 请求方式 ：`GET`
