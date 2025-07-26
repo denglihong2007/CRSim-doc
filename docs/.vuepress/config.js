@@ -50,7 +50,22 @@ export default defineUserConfig({
           icon: 'code',
           children: [
             '/dev/api',
-            '/dev/devlopment-plugins'
+            {
+              text: '开始',
+              collapsible: true,
+              icon: 'play',
+              children: [
+                '/dev/devlopment-plugins',
+              ],
+            },
+            {
+              text: '插件',
+              collapsible: true,
+              icon: 'plug',
+              children: [
+                '/dev/create-project',
+              ],
+            },
           ]
         }
       ]
@@ -68,13 +83,11 @@ export default defineUserConfig({
       {
         assets: "fontawesome-with-brands"
       },
-      mdEnhance: {
-         tabs: true
-      }
     },
     markdown: {
       figure: true,
       imgLazyload: true,
+      tabs: true,
     },
   }),
   head: [

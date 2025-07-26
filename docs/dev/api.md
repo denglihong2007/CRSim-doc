@@ -1,6 +1,6 @@
 ---
 title: 镜像站 API 使用说明
-icon: toolbox
+icon: file-code
 index: false
 ---
 
