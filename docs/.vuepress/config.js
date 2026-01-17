@@ -64,6 +64,7 @@ export default defineUserConfig({
               icon: 'plug',
               children: [
                 '/dev/create-project',
+                '/dev/stationdata-plugins',
               ],
             },
           ]
