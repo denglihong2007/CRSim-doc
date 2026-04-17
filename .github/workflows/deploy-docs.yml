@@ -49,7 +49,7 @@ jobs:
       - name: 提交 IndexNow
         uses: bojieyang/indexnow-action@v1
         with:
-          sitemap-location: "https://docs.crsim.tech/sitemap.xml"  # change it
+          sitemap-location: "https://docs.crsim.raillog.top/sitemap.xml"  # change it
           endpoint: "www.bing.com"
           since: 1
           since-unit: "day"

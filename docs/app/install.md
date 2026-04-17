@@ -18,7 +18,7 @@ index: false
 
 ### 下载安装程序
 
-#### 方法1 打开 [官网](https://crsim.tech/) 下载最新版 CRSim
+#### 方法1 打开 [官网](https://home.crsim.raillog.top/) 下载最新版 CRSim
 ![方法1](img\install\1.png)
 点击立即下载按钮，下载最新版 CRSim 安装程序。
 

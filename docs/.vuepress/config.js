@@ -20,9 +20,9 @@ export default defineUserConfig({
     favicon: './favicon.ico',
     navbar: [
       { text: '首页', icon: 'home', link: '/' },
-      { text: '开始使用',icon: 'lightbulb', link: '/app/' },
-      { text: '开发文档',icon: 'code', link: '/dev/' },
-      { text: '社区群组',icon: 'fa-user-group', link: '/community.html' },
+      { text: '开始使用', icon: 'lightbulb', link: '/app/' },
+      { text: '开发文档', icon: 'code', link: '/dev/' },
+      { text: '社区群组', icon: 'fa-user-group', link: '/community.html' },
     ],
     sidebar: {
       '/app/': [
@@ -74,10 +74,10 @@ export default defineUserConfig({
     plugins:
     {
       seo: {
-        hostname: 'docs.crsim.tech',
+        hostname: 'docs.crsim.raillog.top',
       },
       sitemap: {
-        hostname: 'docs.crsim.tech',
+        hostname: 'docs.crsim.raillog.top',
         devServer: true,
       },
       icon:
