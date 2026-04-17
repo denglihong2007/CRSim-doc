@@ -52,4 +52,4 @@ index: false
 如有疑问，请联系 [support@mstscn.com](mailto:support@mstscn.com) 进行咨询。感谢您的理解与支持！
 :::
 
-[《用户协议》]: http://docs.crsim.tech/%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf
+[《用户协议》]: http://docs.crsim.raillog.top/%E7%94%A8%E6%88%B7%E5%8D%8F%E8%AE%AE.pdf

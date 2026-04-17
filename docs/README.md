@@ -13,7 +13,7 @@ actions:
     type: secondary
 
   - text: 官方网站
-    link: https://crsim.tech/
+    link: https://home.crsim.raillog.top/
     type: secondary
 
   - text: Github 仓库
