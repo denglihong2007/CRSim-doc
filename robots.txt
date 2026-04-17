@@ -4,4 +4,4 @@ Allow: /
 User-agent:*
 Disallow:
 
-Sitemap: https://docs.crsim.tech/sitemap.xml
+Sitemap: https://docs.crsim.raillog.top/sitemap.xml
